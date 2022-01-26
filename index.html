@@ -18,6 +18,7 @@
 </head>
 <body>
   <div class="text-sm text-gray-900">
+    <!-- begin header -->
     <nav class="flex items-center px-4 py-3 bg-gray-900 justify-between">
       <div class="text-white flex items-center space-x-4">
         <a class="w-6 fill-current hover:text-gray-200" href="#">
@@ -62,6 +63,8 @@
         </a>
       </div>
     </nav>
+    <!-- end header -->
+    <!-- begin stats -->
     <div class="repo-stats bg-gray-100 flex items-center justify-between space-x-4 px-8 py-4">
       <div class="flex space-x-2 items-center">
         <svg class="w-5 fill-current text-gray-600" aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true">
@@ -115,6 +118,127 @@
         </div>
       </div>
     </div>
+    <!-- end stats-->
+    <!-- begin nav -->
+      <ul class="repo-nav bg-gray-100 flex items-center space-x-4 px-8 pt-4 border-b border-gray-300" >
+        <li class="font-semibold">
+          <a href="#" class="flex items-center border-b-2 border-red-500 px-4 pb-3 space-x-1">
+            <svg class="w-4 h-4 fill-current" aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true">
+              <path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path>
+            </svg>
+            <span>Code</span>
+          </a>
+        </li>
+        <li class="font-semibold">
+          <a href="#" class="flex items-center px-4 pb-3 space-x-1 text-gray-700 hover:border-gray-400 border-b">
+            <svg class="w-4 h-4 fill-current" aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true">
+              <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path><path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"></path>
+            </svg>
+            <span>Issues</span>
+            <div class="rounded-xl bg-gray-300 px-1 font-semibold text-xs">40</div>
+          </a>
+        </li>
+        <li class="font-semibold">
+          <a href="#" class="flex items-center px-4 pb-3 space-x-1 text-gray-700 hover:border-gray-400 border-b">
+            <svg class="w-4 h-4 fill-current" aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true">
+              <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path>
+            </svg>
+            <span>Pull requests</span>
+            <div class="rounded-xl bg-gray-300 px-1 font-semibold text-xs">25</div>
+          </a>
+        </li>
+        <li class="font-semibold">
+          <a href="#" class="flex items-center px-4 pb-3 space-x-1 text-gray-700 hover:border-gray-400 border-b">
+            <svg class="w-4 h-4 fill-current" aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true">
+              <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-3.5a.75.75 0 00-.53.22L3.5 11.44V9.25a.75.75 0 00-.75-.75h-1a.25.25 0 01-.25-.25v-5.5zM1.75 1A1.75 1.75 0 000 2.75v5.5C0 9.216.784 10 1.75 10H2v1.543a1.457 1.457 0 002.487 1.03L7.061 10h3.189A1.75 1.75 0 0012 8.25v-5.5A1.75 1.75 0 0010.25 1h-8.5zM14.5 4.75a.25.25 0 00-.25-.25h-.5a.75.75 0 110-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0114.25 12H14v1.543a1.457 1.457 0 01-2.487 1.03L9.22 12.28a.75.75 0 111.06-1.06l2.22 2.22v-2.19a.75.75 0 01.75-.75h1a.25.25 0 00.25-.25v-5.5z"></path>
+            </svg>
+            <span>Discussions</span>
+          </a>
+        </li>
+        <li class="font-semibold">
+          <a href="#" class="flex items-center px-4 pb-3 space-x-1 text-gray-700 hover:border-gray-400 border-b">
+            <svg class="w-4 h-4 fill-current" aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true">
+              <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM6.379 5.227A.25.25 0 006 5.442v5.117a.25.25 0 00.379.214l4.264-2.559a.25.25 0 000-.428L6.379 5.227z"></path>
+            </svg>
+            <span>Actions</span>
+          </a>
+        </li>
+        <li class="font-semibold">
+          <a href="#" class="flex items-center px-4 pb-3 space-x-1 text-gray-700 hover:border-gray-400 border-b">
+            <svg class="w-4 h-4 fill-current" aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true">
+              <path fill-rule="evenodd" d="M7.467.133a1.75 1.75 0 011.066 0l5.25 1.68A1.75 1.75 0 0115 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.7 1.7 0 01-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 011.217-1.667l5.25-1.68zm.61 1.429a.25.25 0 00-.153 0l-5.25 1.68a.25.25 0 00-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.2.2 0 00.154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.25.25 0 00-.174-.237l-5.25-1.68zM9 10.5a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.75a.75.75 0 10-1.5 0v3a.75.75 0 001.5 0v-3z"></path>
+            </svg>
+            <span>Security</span>
+          </a>
+        </li>
+        <li class="font-semibold">
+          <a href="#" class="flex items-center px-4 pb-3 space-x-1 text-gray-700 hover:border-gray-400 border-b">
+            <svg class="w-4 h-4 fill-current" aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true">
+              <path fill-rule="evenodd" d="M1.5 1.75a.75.75 0 00-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 000-1.5H1.5V1.75zm14.28 2.53a.75.75 0 00-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 00-1.06 0L3.22 8.72a.75.75 0 001.06 1.06L7 7.06l2.47 2.47a.75.75 0 001.06 0l5.25-5.25z"></path>
+            </svg>
+            <span>Insight</span>
+          </a>
+        </li>
+      </ul>
+    <!-- end nav -->
+    <!-- begin container -->
+    <div class="container mx-auto my-8 px-4 flex">
+      <!-- begin file-explorer container -->
+      <div class="file-explorer-container w-3/4 mr-8 flex justify-between">
+        <div class="branch-navigation flex items-center space-x-2">
+          <button class="flex border rounded-md py-2 px-4 items-center justify-around hover:bg-gray-100 hover:border-gray-400">
+            <svg class="w-4 h-4" text="gray" aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true">
+              <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"></path>
+            </svg>
+            <span class="font-semibold">master</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </button>
+          <div class="flex h-8 space-x-1 px-4 items-center justify-around">
+            <a href="#" class="flex space-x-1 hover:text-gray-500">
+              <svg class="w-4 h-4 fill-current" text="gray" aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true">
+                <path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"></path>
+              </svg>
+              <span class="font-semibold">45</span>
+            </a>
+            <a href="#">branches</a>
+          </div>
+          <div class="flex h-8 space-x-1 px-4 items-center justify-around">
+            <a href="#" class="flex space-x-1 hover:text-gray-500">
+              <svg class="w-4 h-4 fill-current" text="gray" aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true">
+                <path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"></path>
+              </svg>
+              <span class="font-semibold">202</span>
+            </a>
+            <a href="#">tags</a>
+          </div>
+        </div>
+        <div class="flex items-center space-x-2">
+          <button class="font-semibold border rounded-md px-4 py-2 hover:bg-gray-100 hover:border-gray-400">Go to file</button>
+          <button class="font-semibold border rounded-md px-4 py-2 hover:bg-gray-100 hover:border-gray-400 flex">
+            <span>Add file</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </button>
+          <button class="font-semibold border rounded-md px-4 py-2 bg-green-600 hover:bg-green-500 hover:border-gray-400 flex">
+            <span>Code</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- end navigation -->
+      <!-- end file-explore container -->
+      <!-- begin sidebar -->
+      <div class="sidebar w-1/4">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo nulla exercitationem mollitia tempore voluptates cupiditate voluptatem quae accusantium repellendus at!
+      </div>
+      <!-- end sidebar -->
+    </div>
+    <!-- end container -->
   </div>
 </body>
 </html>
